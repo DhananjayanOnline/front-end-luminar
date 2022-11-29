@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.section{
+    float: left;
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.top-div{
+    background-color: aquamarine;
+    
+}
+
+.main-div{
+    background-color: blueviolet;
+
+}
+
+.bottom-div{
+    background-color: aqua;
+    
+}

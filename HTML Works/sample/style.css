@@ -1,0 +1,23 @@
+.parent{
+    background-color: antiquewhite;
+    width: 80%;
+}
+
+.child{
+    width: 50%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.child:nth-child(1){
+    background-color: blueviolet;
+
+}
+
+.child:nth-child(2){
+    background-color: brown;
+}
+
+.child:nth-child(3){
+    background-color: aquamarine;
+}

@@ -1,0 +1,18 @@
+.heading{
+    color: rgb(2, 158, 186);
+    text-align: center;
+}
+
+.head{
+    border: 1px solid black;
+}
+
+.parent{
+    background-color: aqua;
+    width: 70%;
+}
+
+.child{
+    width: 50%;
+    border: 1px solid black;
+}
