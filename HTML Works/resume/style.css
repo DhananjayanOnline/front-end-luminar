@@ -1,8 +1,13 @@
+body{
+    background-color: aliceblue;
+}
+
 .container{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
+    background-color: white;
 }
 
 .head-section{
@@ -115,6 +120,12 @@ p{
     padding: 0.1em;
     padding-top: 1em;
     border-radius: 1em;
+}
+
+.programming-skills-inner h2{
+    letter-spacing: 0.2em;
+    margin: auto;
+    margin-left: 1em;
 }
 
 .programming-skills-inner li{
