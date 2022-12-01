@@ -1,0 +1,162 @@
+.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1.2fr 2fr;
+    
+}
+
+.inner-head{
+    border: 1px solid black;
+}
+
+.inner-head:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 260px;
+}
+
+.inner-head:nth-child(2) h1{
+    font-size: 3.8rem;
+    margin: auto;
+    margin-top: 0.2em;
+
+}
+
+.inner-head:nth-child(3){
+    background-color: rgb(51, 24, 63);
+    color: white;
+    padding: 1em;
+}
+
+.inner-head:nth-child(3) h2{
+    margin: 0;
+}
+
+.inner-head:nth-child(3) p{
+    font-stretch: wider;
+    letter-spacing: 0px; 
+    word-spacing: 1px; 
+    line-height: 25px;
+    margin: 0;
+}
+
+.profile-picture{
+    width: 55%;
+    height: 150px;
+    margin: auto;
+    margin-top: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.profile-picture img{
+    width: 100%;
+}
+
+.body-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inner-body{
+    height: auto;
+    border: 1px solid black;
+}
+
+h2{
+    margin: 0;
+    margin-left: 0.5em;
+    margin-right: 1em;
+}
+
+h4{
+    margin: 0;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+p{
+    margin: 0;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.experience li{
+    line-height: 2em;
+}
+
+.programming-skills-inner{
+    background-color: gainsboro;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.1em;
+    padding-top: 1em;
+    border-radius: 1em;
+}
+
+.programming-skills-inner li{
+    line-height: 2em;
+}
+
+.projects h4{
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 1em;
+}
+
+.projects p{
+    margin: 0;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.projects li{
+    line-height: 2em;
+}
+
+.skills-inner{
+    background-color: gainsboro;
+    width: 90%;
+    margin: auto;
+    margin-top: 3em;
+    padding: 0.1em;
+    padding-top: 1em;
+    border-radius: 1em;
+}
+
+.skills-inner li{
+    line-height: 2em;
+}
+
+.bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inner-bottom{
+    border: 1px solid black;
+}
+
+.inner-bottom li{
+    line-height: 2em;
+}
+
+.education-inner{
+    background-color: gainsboro;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
